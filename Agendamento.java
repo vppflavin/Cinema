@@ -1,4 +1,6 @@
 package Cinema;
+import java.util.ArrayList;
+
 public class Agendamento {
     // N numero de salas;
     // M numero de fileiras;
@@ -14,6 +16,10 @@ public class Agendamento {
         this.idade = separarA[1];
         this.filme = separarA[2];
      }
+
+    Agendamento() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
      
      public void setNome(String nome){
          this.nome = nome;
@@ -23,7 +29,7 @@ public class Agendamento {
          return nome;
      }
      
-     public void Idade(String idade){
+     public void setIdade(String idade){
          this.idade = idade;
      }
      
